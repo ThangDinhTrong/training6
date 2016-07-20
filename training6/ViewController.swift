@@ -248,8 +248,105 @@ class ViewController: UIViewController {
 
         }
     }
-    func swipeAction() {
+    func swipeAction(swipeRecog : UISwipeGestureRecognizer) {
         print("Swipe")
+        if selected == false {
+            selected = true
+            viewTarget = swipeRecog.view as! UIImageView
+            tempView = viewTarget
+            switch viewTarget {
+            case view1:
+                viewTarget.image = UIImage(named: nameImageArray[0])
+                imageText1 = nameImageArray[0]
+            case view2:
+                viewTarget.image = UIImage(named: nameImageArray[1])
+                imageText1 = nameImageArray[1]
+            case view3:
+                viewTarget.image = UIImage(named: nameImageArray[2])
+                imageText1 = nameImageArray[2]
+            case view4:
+                viewTarget.image = UIImage(named: nameImageArray[3])
+                imageText1 = nameImageArray[3]
+            case view5:
+                viewTarget.image = UIImage(named: nameImageArray[4])
+                imageText1 = nameImageArray[4]
+            case view6:
+                viewTarget.image = UIImage(named: nameImageArray[5])
+                imageText1 = nameImageArray[5]
+            case view7:
+                viewTarget.image = UIImage(named: nameImageArray[6])
+                imageText1 = nameImageArray[6]
+            case view8:
+                viewTarget.image = UIImage(named: nameImageArray[7])
+                imageText1 = nameImageArray[7]
+            case view9:
+                viewTarget.image = UIImage(named: nameImageArray[8])
+                imageText1 = nameImageArray[8]
+            case view10:
+                viewTarget.image = UIImage(named: nameImageArray[9])
+                imageText1 = nameImageArray[9]
+            case view11:
+                viewTarget.image = UIImage(named: nameImageArray[10])
+                imageText1 = nameImageArray[10]
+            default:
+                viewTarget.image = UIImage(named: nameImageArray[11])
+                imageText1 = nameImageArray[11]
+            }
+            viewTarget.gestureRecognizers![0].enabled = false
+            viewTarget.gestureRecognizers![1].enabled = false
+        }
+        else {
+            selected = false
+            viewTarget = swipeRecog.view as! UIImageView
+            switch viewTarget {
+            case view1:
+                viewTarget.image = UIImage(named: nameImageArray[0])
+                imageText2 = nameImageArray[0]
+                
+            case view2:
+                viewTarget.image = UIImage(named: nameImageArray[1])
+                imageText2 = nameImageArray[1]
+                
+            case view3:
+                viewTarget.image = UIImage(named: nameImageArray[2])
+                imageText2 = nameImageArray[2]
+            case view4:
+                viewTarget.image = UIImage(named: nameImageArray[3])
+                imageText2 = nameImageArray[3]
+            case view5:
+                viewTarget.image = UIImage(named: nameImageArray[4])
+                imageText2 = nameImageArray[4]
+            case view6:
+                viewTarget.image = UIImage(named: nameImageArray[5])
+                imageText2 = nameImageArray[5]
+            case view7:
+                viewTarget.image = UIImage(named: nameImageArray[6])
+                imageText2 = nameImageArray[6]
+            case view8:
+                viewTarget.image = UIImage(named: nameImageArray[7])
+                imageText2 = nameImageArray[7]
+            case view9:
+                viewTarget.image = UIImage(named: nameImageArray[8])
+                imageText2 = nameImageArray[8]
+            case view10:
+                viewTarget.image = UIImage(named: nameImageArray[9])
+                imageText2 = nameImageArray[9]
+            case view11:
+                viewTarget.image = UIImage(named: nameImageArray[10])
+                imageText2 = nameImageArray[10]
+            default:
+                viewTarget.image = UIImage(named: nameImageArray[11])
+                imageText2 = nameImageArray[11]
+            }
+            
+            
+            NSTimer.scheduledTimerWithTimeInterval(4, target: self, selector: #selector(ViewController.processImage), userInfo: nil, repeats: false)
+            
+            
+            
+            
+        }
+
     }
     func processImage() {
         if imageText1 == imageText2 {
