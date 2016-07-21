@@ -19,7 +19,7 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cqq-E2-QIe">
                                 <rect key="frame" x="240" y="439" width="60" height="60"/>
-                                <color key="backgroundColor" red="1" green="0.99260064270000004" blue="0.37578149350000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="vfQ-Kf-o56" appends="YES" id="zhv-1w-r0F"/>
@@ -28,7 +28,7 @@
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bLM-8Q-KLX">
                                 <rect key="frame" x="20" y="28" width="60" height="60"/>
-                                <color key="backgroundColor" red="1" green="0.99260064270000004" blue="0.37578149350000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="Run-rA-Ox0" appends="YES" id="p2b-QW-T8H"/>
@@ -37,7 +37,7 @@
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4q5-RM-hQS">
                                 <rect key="frame" x="130" y="28" width="60" height="60"/>
-                                <color key="backgroundColor" red="1" green="0.99260064270000004" blue="0.37578149350000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="GpD-nc-IVu" appends="YES" id="QiY-c1-KWZ"/>
@@ -46,7 +46,7 @@
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bpu-NR-48u">
                                 <rect key="frame" x="240" y="28" width="60" height="60"/>
-                                <color key="backgroundColor" red="1" green="0.99260064270000004" blue="0.37578149350000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="i9K-xU-gmI" appends="YES" id="grL-58-aCI"/>
@@ -55,7 +55,7 @@
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8r7-9I-j4Y">
                                 <rect key="frame" x="20" y="158" width="60" height="60"/>
-                                <color key="backgroundColor" red="1" green="0.99260064270000004" blue="0.37578149350000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="ahI-YP-fJz" appends="YES" id="Npw-8r-2Zn"/>
@@ -64,7 +64,7 @@
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HgO-iv-wal">
                                 <rect key="frame" x="130" y="158" width="60" height="60"/>
-                                <color key="backgroundColor" red="1" green="0.99260064270000004" blue="0.37578149350000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="lCg-1K-QZl" appends="YES" id="PpY-n5-mUv"/>
@@ -73,7 +73,7 @@
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7yt-V5-Bb2">
                                 <rect key="frame" x="240" y="158" width="60" height="60"/>
-                                <color key="backgroundColor" red="1" green="0.99260064270000004" blue="0.37578149350000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="vOk-Rh-Xcx" appends="YES" id="c2c-6g-lqR"/>
@@ -82,7 +82,7 @@
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TXR-Bf-Plo">
                                 <rect key="frame" x="20" y="288" width="60" height="60"/>
-                                <color key="backgroundColor" red="1" green="0.99260064270000004" blue="0.37578149350000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="JQR-gU-TT8" appends="YES" id="Xjk-0Y-cpp"/>
@@ -91,7 +91,7 @@
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KZ8-Nl-r7m">
                                 <rect key="frame" x="130" y="288" width="60" height="60"/>
-                                <color key="backgroundColor" red="1" green="0.99260064270000004" blue="0.37578149350000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="ZOR-H8-Tbp" appends="YES" id="pet-N1-pSZ"/>
@@ -100,7 +100,7 @@
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Rw-GE-PpW">
                                 <rect key="frame" x="240" y="288" width="60" height="60"/>
-                                <color key="backgroundColor" red="1" green="0.99260064270000004" blue="0.37578149350000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="JB8-gQ-Wps" appends="YES" id="S09-9A-N3w"/>
@@ -109,7 +109,7 @@
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Nk-jN-FDm">
                                 <rect key="frame" x="20" y="439" width="60" height="60"/>
-                                <color key="backgroundColor" red="1" green="0.99260064270000004" blue="0.37578149350000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="n5R-EN-Ulp" appends="YES" id="u43-9X-7ni"/>
@@ -118,7 +118,7 @@
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tjO-DQ-sud">
                                 <rect key="frame" x="130" y="439" width="60" height="60"/>
-                                <color key="backgroundColor" red="1" green="0.99260064270000004" blue="0.37578149350000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="RTE-Yn-dJM" appends="YES" id="NlO-I0-Oga"/>
@@ -126,7 +126,7 @@
                                 </connections>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                     </view>
                     <connections>

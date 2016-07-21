@@ -59,6 +59,32 @@ class ViewController: UIViewController {
     var nameImageArray = ["1","2","3","4","5","6","1","2","3","4","5","6"]
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.gestureGame()
+    }
+    
+    func setImageForView()  {
+        view1.image = UIImage(named: "8")
+        view2.image = UIImage(named: "8")
+        view3.image = UIImage(named: "8")
+        view4.image = UIImage(named: "8")
+        view5.image = UIImage(named: "8")
+        view6.image = UIImage(named: "8")
+        view7.image = UIImage(named: "8")
+        view8.image = UIImage(named: "8")
+        view9.image = UIImage(named: "8")
+        view10.image = UIImage(named: "8")
+        view11.image = UIImage(named: "8")
+        view12.image = UIImage(named: "8")
+        
+        
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    func gestureGame() {
         view1.userInteractionEnabled = true
         view2.userInteractionEnabled = true
         view3.userInteractionEnabled = true
@@ -125,28 +151,8 @@ class ViewController: UIViewController {
         swipeView12.addTarget(self,action: #selector(self.swipeAction))
         
         setImageForView()
-    }
-    
-    func setImageForView()  {
-        view1.image = UIImage(named: "8")
-        view2.image = UIImage(named: "8")
-        view3.image = UIImage(named: "8")
-        view4.image = UIImage(named: "8")
-        view5.image = UIImage(named: "8")
-        view6.image = UIImage(named: "8")
-        view7.image = UIImage(named: "8")
-        view8.image = UIImage(named: "8")
-        view9.image = UIImage(named: "8")
-        view10.image = UIImage(named: "8")
-        view11.image = UIImage(named: "8")
-        view12.image = UIImage(named: "8")
-        
-        
-    }
+        randomArray()
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     func tapAction(tapRecog:UITapGestureRecognizer) {
@@ -340,7 +346,7 @@ class ViewController: UIViewController {
             }
             
             
-            NSTimer.scheduledTimerWithTimeInterval(4, target: self, selector: #selector(ViewController.processImage), userInfo: nil, repeats: false)
+            NSTimer.scheduledTimerWithTimeInterval(0.01, target: self, selector: #selector(ViewController.processImage), userInfo: nil, repeats: false)
             
             
             
@@ -362,6 +368,16 @@ class ViewController: UIViewController {
             tempView.gestureRecognizers![1].enabled = true
             viewTarget.image = UIImage(named:"8")
             
+        }
+        
+    }
+    
+    func randomArray() {
+        for i in 0 ..< nameImageArray.count {
+            let random = Int(arc4random()%12)
+            let temp = nameImageArray[i]
+            nameImageArray[i] = nameImageArray[random]
+            nameImageArray[random] = temp
         }
     }
 
